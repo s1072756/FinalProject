@@ -23,10 +23,11 @@
     <Button
         android:id="@+id/btngo"
         style="@android:style/Widget.Material.Button.Inset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:onClick="Go"
         android:text="開始遊戲"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/glgo"
         app:layout_constraintTop_toTopOf="@+id/glgo2" />
 
