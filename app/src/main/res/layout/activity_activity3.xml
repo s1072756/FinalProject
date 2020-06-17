@@ -29,4 +29,12 @@
         android:text="開始遊戲"
         app:layout_constraintStart_toStartOf="@+id/glgo"
         app:layout_constraintTop_toTopOf="@+id/glgo2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

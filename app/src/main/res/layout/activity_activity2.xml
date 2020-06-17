@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="next"
-        android:text="下一步"
+        android:text="遊戲規則"
         app:layout_constraintStart_toStartOf="@+id/glnext"
         app:layout_constraintTop_toTopOf="@+id/glnext2" />
 
@@ -37,20 +37,18 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.15" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我們要認識的物品"
-        android:textColor="#421010"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/gltitle"
-        app:layout_constraintEnd_toStartOf="@+id/gltitle2" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/gltitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
