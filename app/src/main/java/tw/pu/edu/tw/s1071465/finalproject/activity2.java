@@ -25,7 +25,7 @@ public class activity2 extends AppCompatActivity implements GestureDetector.OnGe
         int PictureNo,totalPicture;
         PictureNo=0;
         totalPicture =6;
-        getSupportActionBar().hide(); //隱藏標題
+        getSupportActionBar().hide(); //隱藏標題//
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN); //隱藏狀態
     }
     public void next(View v) {
